@@ -24,7 +24,7 @@ Voici les règles de celle-ci:
 * Bouton save pour enregistrer une instance en cours dans un fichier.
 * Bouton load pour ouvrir une instance enregistrée.
 
-Le programme se lance en appuyant sur le bouton play. On peut relancer le programme en appuyant sur le bouton play. On peut avancer d'une case en appuyant sur le bouton next. Et sauvegarder notre progression avec le bouton save. 
+Le programme Fourmi de Langton se lance en appuyant sur le bouton play. On peut relancer le programme en appuyant sur le bouton play. On peut avancer d'une case en appuyant sur le bouton next. Et sauvegarder notre progression avec le bouton save. 
 
 Nous nous sommes aidé d'un projet trouvé sur internet pour créer notre programme. 
 

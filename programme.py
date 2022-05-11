@@ -35,8 +35,17 @@ def affiche_damier(config):
     for i in range(1, N+1):
         for j in range(1, N+1):
             canvas.itemconfigure(damier[i][j])
+
 def play():
-    canvas.itemconfigure()
+    global stop
+    if stop:
+        stop = False
+        bouton_play.configure(text="Stop")
+        stabilize()
+    else:
+        stop = True
+        bouton_play.configure(text="Start")
+        canvas.after_cancel(id_after)
 
 def pause():
     canvas.itemconfigure()

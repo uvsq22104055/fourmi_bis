@@ -90,7 +90,11 @@ def programme():
         i=i+1
         fenetre.update()
 
-#pour bouton load et save
+def next():
+    global programme 
+    if programme==False:
+        return
+    MooveAnt()
 
 
 #_____Création de l'interface reunnissant le damier et les pions_______

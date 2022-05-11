@@ -26,5 +26,9 @@ Voici les règles de celle-ci:
 
 Le programme se lance en appuyant sur le bouton play. On peut relancer le programme en appuyant sur le bouton play. On peut avancer d'une case en appuyant sur le bouton next. Et sauvegarder notre progression avec le bouton save. 
 
+Nous nous sommes aidé d'un projet trouvé sur internet pour créer notre programme. 
+
+Voici le lien suivant : https://github.com/nourrane/FourmisLangton/blob/main/fourmis.py
+
 Ainsi nous avons un jeu imparfait, qui résulte d'un travail d'équipe qui a abouti à une synthèse fonctionnelle mais incomplète,
 mais qui illustre malgré tout le travail des uns et des autres.

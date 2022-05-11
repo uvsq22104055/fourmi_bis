@@ -23,3 +23,8 @@ Voici les règles de celle-ci:
 * Pouvoir revenir en arrière d’une étape
 * Bouton save pour enregistrer une instance en cours dans un fichier.
 * Bouton load pour ouvrir une instance enregistrée.
+
+Le programme se lance en appuyant sur le bouton play. On peut relancer le programme en appuyant sur le bouton play. On peut avancer d'une case en appuyant sur le bouton next. Et sauvegarder notre progression avec le bouton save. 
+
+Ainsi nous avons un jeu imparfait, qui résulte d'un travail d'équipe qui a abouti à une synthèse fonctionnelle mais incomplète,
+mais qui illustre malgré tout le travail des uns et des autres.

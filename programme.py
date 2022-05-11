@@ -41,10 +41,15 @@ def play():
     if stop:
         stop = False
         bouton_play.configure(text="Stop")
+        stabilize()
     else:
         stop = True
         bouton_play.configure(text="Start")
-        canvas.after_cancel()
+        canvas.after_cancel(id_after)
+
+def add_souris(event):
+
+    x, y = event.x, event.y
 
 def pause():
     canvas.itemconfigure()
@@ -53,7 +58,6 @@ def next():
     canvas.itemconfigure()
 
 def save():
-    """Sauvegarde la config courante dans le fichier sauvegarde"""
     fic = open("save", "w")
     fic.write(str(N)+"\n")
     for i in range(1, N+1):

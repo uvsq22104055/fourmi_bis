@@ -8,6 +8,8 @@ Bastien Combes:22104055
 
 Perrine ILARY:22004122
 
+Adrien AUGIS
+
 1. La fourmi de Langton est un automate cellulaire composé d’une grille à deux dimensions et d’une fourmi.
 Voici les règles de celle-ci:
 * La fourmi peut se déplacer à gauche, à droite, en haut ou en bas d'une case à chaque fois:

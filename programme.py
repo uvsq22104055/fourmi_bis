@@ -10,7 +10,7 @@ HAUTEUR_CASE = HAUTEUR // N
 damier = None
 
 bord = None
-
+stop=True
 
 def init_damier():
     """Retourne une grille carrée vide

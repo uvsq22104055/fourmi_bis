@@ -41,11 +41,10 @@ def play():
     if stop:
         stop = False
         bouton_play.configure(text="Stop")
-        stabilize()
     else:
         stop = True
         bouton_play.configure(text="Start")
-        canvas.after_cancel(id_after)
+        canvas.after_cancel()
 
 def pause():
     canvas.itemconfigure()

@@ -46,7 +46,7 @@ def next():
 
 def save():
     """Sauvegarde la config courante dans le fichier sauvegarde"""
-    fic = open("sauvegarde", "w")
+    fic = open("save", "w")
     fic.write(str(N)+"\n")
     for i in range(1, N+1):
         for j in range(1, N+1):
